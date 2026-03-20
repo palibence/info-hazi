@@ -11,7 +11,7 @@ int main() {
 
     std::cout << "Sebesség: " << t / s * 3.6 << " km/h" << std::endl;
 
-    std::cout << "Tempó: " << s / t * 60 << " perc/km" << std::endl;
+    std::cout << "Tempó: " << s / ( t * 60 ) << " perc/km" << std::endl;
 
     return 0;
 }
