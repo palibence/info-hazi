@@ -10,7 +10,7 @@ int main() {
     std::cout << "Masodik nepszamlalas: ";
     std::cin >> masodik;
 
-    std::cout << elso / masodik * 100 << "% volt a novekedes." << std::endl;
+    std::cout << masodik / elso * 100 << "% volt a novekedes." << std::endl;
 
     return 0;
 }
