@@ -2,9 +2,9 @@
 
 int main() {
 
-    std::cout << "Egy...\n";
-    std::cout << "Kettő...\n";
-    std::cout << "Három...\n";
+    std::cout << "Egy..." << std::endl;
+    std::cout << "Ketto..." << std::endl;
+    std::cout << "Harom..." << std::endl;
 
     return 0;
 }

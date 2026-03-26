@@ -1,17 +1,18 @@
 #include <iostream>
 
 int main() {
+
     float t, s;
 
-    std::cout << "Idő (másodpercben): ";
+    std::cout << "Ido (masodpercben): ";
     std::cin >> s;
 
-    std::cout << "Távolság (méterben): ";
+    std::cout << "Tavolsag (meterben): ";
     std::cin >> t;
 
-    std::cout << "Sebesség: " << t / s * 3.6 << " km/h" << std::endl;
+    std::cout << "Sebesseg: " << t / s * 3.6 << " km/h" << std::endl;
 
-    std::cout << "Tempó: " << s / ( t * 60 ) << " perc/km" << std::endl;
+    std::cout << "Tempo: " << s / ( (t / 1000) * 60 ) << " perc/km" << std::endl;
 
     return 0;
 }

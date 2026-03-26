@@ -3,8 +3,8 @@
 int main() {
 
     std::cout << "Egy...";
-    std::cout << "Kettő...";
-    std::cout << "Három...";
+    std::cout << "Ketto...";
+    std::cout << "Harom...";
 
     return 0;
 }
