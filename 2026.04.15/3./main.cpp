@@ -18,7 +18,7 @@ int main() {
 
     std::cout << "Korok szama: " << korok << std::endl;
 
-    std::cout << "Palyan toltott ido: " << osszeg / 1800 << " : " << osszeg % 1800 / 60 << " : " << osszeg % 1000 % 60 << std::endl;
+    std::cout << "Palyan toltott ido: " << osszeg / 3600 << " : " << osszeg % 3600 / 60 << " : " << osszeg % 3600 % 60 << std::endl;
 
     return 0;
 }
